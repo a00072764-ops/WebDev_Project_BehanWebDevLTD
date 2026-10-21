@@ -1,0 +1,53 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+nav {
+    background-color: darkgray;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+body {
+    font-family: "Maname", serif;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+h3 {
+    text-align: center;
+    color:orange;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.reasons {
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+#about-title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
