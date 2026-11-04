@@ -1,10 +1,42 @@
+/* ---------- General ---------- */
+body {
+    font-family: "Maname", serif;
+    background-color: black;
+    color: white;
+}
+
 h1 {
-    color: red;
+    color: orangered;
     text-align: center;
 }
 
+h2 {
+    color: orange;
+    text-align: center;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ---------- Navigation ---------- */
 nav {
-    background-color: darkgray;
+    background-color: black;
+    border-bottom: 2px solid orange;
 }
 
 nav a {
@@ -15,39 +47,42 @@ nav a {
 
 nav a:hover {
     color: orange;
+    text-decoration: underline;
 }
 
-body {
-    font-family: "Maname", serif;
-}
-
-img {
-    width: 300px;
-    border-radius: 10px;
-}
-
-h2 {
-    text-align: center;
-    color: orange;
-}
-
-h3 {
-    text-align: center;
-    color:orange;
-}
-
-p {
-    line-height: 1.6;
-    text-align: center;
-}
-
-.reasons {
-    background-color: lightgray;
-    padding: 20px;
-    border: 2px solid red;
-}
-
+/* ---------- About page ---------- */
 #about-title {
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.reasons {
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid orange;
+    background-color: darkslategray;
+    text-align: center;
+    list-style-type: none;
+}
+
+.reasons li {
+    color: white;
+    margin-bottom: 8px;
+}
+
+body.home {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.home p {
+    width: 600px;
+    padding: 15px;
+    margin: 20px auto;
+    border: 2px solid orange;
+    background-color: black;
 }
